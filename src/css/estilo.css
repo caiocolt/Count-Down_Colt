@@ -1,0 +1,91 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #FFD900;
+    margin: 0px;
+    /* margin: 0px; */
+}
+
+header {
+    padding: 20px;
+    margin-left: 100px;
+}
+
+section{
+    display: 
+    grid;
+    grid-auto-flow: column;
+}
+
+#chamada{
+    background-color: #514988;
+    padding: 10px 20px 30px 32px;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    height: 468px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#chamada h1{
+    color: #FFD900;
+    font-size:50px;
+}
+
+#data-evento{
+    font-size: 30px;
+}
+
+#conteudo {
+    font-size: 10px;
+    padding: 10px;
+}
+
+.count-down{
+    background-color: #fff;
+}
+
+.timer {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-around;
+    margin-left: 15px;
+}
+
+#sub-titulo{
+    color: #E33881;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 100px;
+}
+
+#botao-comprar{
+    background-color: #514988;
+    border-radius: 20px;
+    color: white;
+    margin: 160px 30px 30px;
+    width: 300px;
+    height: 70px;
+    font-size: 30px;
+}
+
+section#secao-vendas{
+    background-color: #fff;
+    justify-content: space-around;
+}
+
+#subtitulos-img{
+    
+    color: #ff8800;
+    text-align: center;
+    height: 600px;
+}
+
+.ult-section{
+    margin-top: 80px;
+    display: flex;
+    width: 300px;
+}
+
+
